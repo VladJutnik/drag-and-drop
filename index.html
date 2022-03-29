@@ -11,7 +11,23 @@
 <div class="app">
     <div class="boards">
         <div class="boards_items">
-            <span class="title">Название</span>
+            <!--contenteditable="true" изменения названия-->
+            <span contenteditable="true" class="title">Название</span>
+            <div class="list">
+                <div class="list_item" draggable="true">
+                    Стартовая карта
+                </div>
+            </div>
+            <div class="form">
+                <textarea class="textarea" placeholder="Название карты"></textarea>
+                <div class="buttons">
+                    <button class="add_item-btn">добавить карточку</button>
+                    <button class="canncel_item-btn">отмена</button>
+                </div>
+            </div>
+
+            <div class="add_btn"><span> + </span> Добавить карточку</div>
+
         </div>
     </div>
 </div>
